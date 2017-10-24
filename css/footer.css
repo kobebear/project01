@@ -1,0 +1,32 @@
+div.main{
+	width:100%;
+	margin:0 auto;
+}
+ul.items{
+    margin-top:20px;
+	width:100%;
+	background:#FBDDE4;
+	display:flex;
+	justify-content:space-between;
+	opacity:0.8;
+}
+ul.items li{
+	padding:10px 10px;
+}
+ul.items>li>a>span{
+	font-size:14px;
+	color:#EA889F;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+ul.items>li>a>span:hover{
+	color:#fff;
+}
+ul.items li a p{
+	font-weight:bold;
+	display:inline;
+}
+ul.items li a p img{
+	vertical-align:middle;
+}

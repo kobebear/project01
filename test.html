@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+            body{
+              text-align:center;
+            }
+            div,a{
+            width:100px;
+            height:100px;
+           }
+           #top{
+            background:#000;
+            opacity:0.7;
+            transition:all 0.5s linear;
+            position:absolute;
+            top:1px;
+            left:1px;
+            z-index:10;
+           }
+           #main{
+            position:relative;
+           }
+    </style>
+</head>
+<body>
+    <div id="main">
+      <div id="under">
+         <a href="#"> <img src="img/picture/20170401095451765_64_64.jpg"  width="100px" height="100px" ></a>
+      </div>
+      <div id="top" >
+        <a href="#">click me</a>
+      </div>
+    </div>
+/*!
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script>
+        $("#main").on("mouseenter","#top",function(){
+            $(this).css("opacity",0);
+            $(this).hide(300);
+
+        })
+        $("#main").on("mouseleave","#top",function(){
+                $(this).css("opacity",1);
+              $(this).show(300);
+
+        })
+    </script>
+</body>
+</html>

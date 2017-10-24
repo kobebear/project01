@@ -1,0 +1,112 @@
+/*上层图标样式*/
+	.main{
+		background:#E6F4F9;
+		width:100%;
+		margin-top:50px;
+	}
+	#icon #icon-list{
+		width:100%;
+		margin-top:20px;
+		margin-left: 100px;
+		clear:left;
+	}
+	#icon #icon-list>li{
+		float:left;
+		margin-left:120px;
+		color:#54E4DA;
+		font-size:14px;
+		width:160px;
+		height:60px;
+		line-height:60px;
+
+	}
+	#icon #icon-list>li>i{
+		display:block;
+		float:left;
+		width:60px;
+		height:60px;
+		margin-right:10px;
+		background:url("../img/images/img.png");
+	}
+	#icon #icon-list li:nth-child(1)>i{
+		background-position:241px 0px;
+	}
+	#icon #icon-list li:nth-child(2)>i{
+		background-position:60px 0px;
+	}
+	#icon #icon-list li:nth-child(3)>i{
+		background-position:181px 0px;
+	}
+	#icon #icon-list li:nth-child(4)>i{
+		background-position:121px 0px;
+	}
+
+/*下层样式	*/
+	.main div:nth-child(2){
+		clear:left;
+
+	}
+	.main div:nth-child(1)~div{
+		float:left;
+		margin-left:175px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	.main div h3{
+		border-left:2px solid #54E4DA;
+		font-size:16px;
+		padding-left:5px;
+		font-weight:normal;
+		margin-bottom:10px;
+	}
+	.main div p{
+		font-size:14px;
+		color:#777777;
+		height:16px;
+		line-height:16px;
+	}
+	.main div #title li{
+		height:16px;
+		line-height:16px;
+		font-size:14px;
+		color:#777777;
+	}
+	.main div:nth-child(4) a{
+		display:block;
+		margin-top:10px;
+		width:177px;
+		height:42px;
+	}
+	.main div:nth-child(4) span{
+		display:inline-block;
+		width:130px;
+		height:42px;
+		padding-left:5px;
+	}
+	.main div:nth-child(4) i{
+		display:inline-block;
+		width:42px;
+		height:42px;
+		background:url("../img/images/img.png");
+		margin-bottom:-8px;
+	}
+	.main div:nth-child(4) .i1{
+		background-position:325px 0px;
+	}
+	.main div:nth-child(4) .i2{
+		background-position:283px 0px;
+	}
+	#conn>p>i,#conn>p>b{
+		display:inline-block;
+		width:30px;
+		height:30px;
+		margin-top:10px;
+		background:url("../img/images/img.png");
+	}
+	#conn p i{
+		background-position:355px 0px;
+	}
+	#conn p b{
+		margin-left:20px;
+		background-position:385px 0px;
+	}

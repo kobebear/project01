@@ -1,0 +1,79 @@
+div.main{
+	width:100%;
+	margin:0 auto;
+}
+div.banner{
+    margin-top:30px;
+	position:relative;
+	overflow:hidden;
+}
+div.banner>img.bg{
+	transition:all .3s linear;
+	width:100%;
+	opacity:0.8;
+}
+div.banner>img.bg:hover{
+	opacity:1;
+	transform:scale(1.1);
+}
+div.register{
+	width:300px;
+	background:rgba(0,0,0,0.2);
+	border-radius:5px;
+	position:absolute;
+	top:50px;
+	right:36px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+div.register p{
+	font-size:14px;
+	color:#fff;
+}
+div.register>p:nth-child(1){
+	padding:10px 5px;
+	border-bottom:1px solid #fff;
+}
+div.register>p{
+	padding:10px 5px;
+}
+div.register>p>span{
+	width:60px;
+}
+div.register>p:nth-child(1)>span>b{
+	color:#e893a9;
+	font-size:14px;
+}
+div.register>p:nth-child(1)>span{
+	margin-left:0px;
+}
+#login{
+	color:#fff;
+}
+#login:hover{
+	color:#e893a9;
+}
+div.register input{
+	border:none;
+	outline:none;
+	border-radius:2px;
+	padding:5px 3px;
+}
+div.submit {
+	padding:5px 5px;
+	margin-left:30px;
+}
+div.submit input{
+	clear:both;
+	width: 230px;
+	background:#D2607A;
+	font-size:14px;
+	color:#fff;
+	padding:5px 3px;
+	text-align:center;
+	transition:all .5s linear;
+}
+div.submit input:hover{
+	opacity:0.6;
+}

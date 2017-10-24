@@ -1,0 +1,144 @@
+body{
+	background:#fff;
+}
+#main{
+	background:#fff;
+	width:100%;
+}
+/*head-top样式*/
+	.headTop{
+		height:30px;
+		width:100%;
+		border:1px solid transparent;
+		background:#F3F7F7;
+		font-size:12px;
+	}
+	.headTop>span{
+		margin-left:30px;
+		display:inline-block;
+		height:30px;
+		line-height:30px;
+		
+	}
+	.topr{
+		float:right;
+		margin-right:200px;
+	}
+	.topr>li{
+		float:left;
+		margin-left:50px;
+	}
+	.topr>li>a{
+		display:inline-block;
+		height:30px;
+		line-height:30px;
+		
+	}
+	.topr i{
+		display:inline-block;
+		width:14px;
+		height:15px;
+		margin-bottom:-3px;
+		background-image:url("../img/images/img.png");
+	}
+	.topr .i1{
+		background-position:-55px -1px;
+	}
+	.topr .i2{
+		background-position:-41px -1px;
+	}
+	.topr .i3{
+		background-position:-130px 0px;
+		width:17px;
+		height:17px;
+	}
+	.topr .i4{
+		width:9px;
+		height:13px;
+		background-image:url("../img/images/xyapp.png");
+	}
+	.headTop{
+		padding:0 100px;
+	}
+/*head样式*/	
+	.head{
+		width:100%;
+		height:116px;
+		display:flex;
+		justify-content:space-between;
+		flex-wrap:no-warp;
+	}
+	#conr{
+		width:200px;
+		margin-top:35px;
+	}
+	#conr>i{
+		display:inline-block;
+		float:left;
+		width:42px;
+		height:42px;
+		background:url("../img/images/img.png");
+		background-position:-249px 0px;
+	}
+	#conr>p{
+		float:left;
+		margin-top:10px;
+		font-size:14px;
+		color:#3985A0;
+	}
+	#conr>strong{
+		display:block;
+		clear:left;
+		font-size:16px;
+		color:#FF527F;
+		margin-left:5px;
+	}
+	#headCenter>ul{
+		margin-top:10px;
+	}
+	#headCenter>ul>li{
+		float:left;
+		margin-left:5px;
+	}
+	#headCenter>ul>li>a,#headCenter>ul>li>span{
+		font-size:14px;
+		color:#9B9B9B;
+	}
+	#headCenter>#sbox{
+		width:382px;
+		height:32px;
+		border-radius:30px;
+		border:1px solid #2CC7C5;
+		margin-top:40px;
+	}
+	#headCenter>#sbox>i{
+		display:block;
+		float:left;
+		width:16px;
+		height:16px;
+		background:url("../img/images/img.png");
+		background-position:-114px 0px;
+		margin:8px;
+	}
+	#headCenter>#sbox>input{
+		border:none;
+		outline:none;
+		height:30px;
+		width:290px;
+	}
+	#sbox>a{
+		display:block;
+		float:right;
+		margin-top:7px;
+		margin-right:5px;
+		padding-left:2px;
+		height:20px;
+		width:30px;
+		border-left:1px solid #2CC7C5;
+		background:#fff;
+		font-size:14px;
+		color:#2CC7C5;
+	}
+	#sbox>a:hover{
+		cursor:pointer;
+	}

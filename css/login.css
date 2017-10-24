@@ -1,0 +1,84 @@
+div.main{
+	width:100%;
+	margin:0 auto;
+}
+/*section 部分*/
+section>div{
+	position:relative;
+	overflow:hidden;
+}
+section>div img{
+	transition: all .3s linear;
+	width:100%;
+	margin:0 auto;
+	opacity:0.8;
+}
+section div.login{
+	background:rgba(0,0,0,0.2);
+	width:280px;
+	height:297px;
+	border-radius:3px;
+	position:absolute;
+	top:90px;
+	right:80px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	box-sizing:border-box;
+}
+section>div img:hover{
+	opacity:1;
+	transform:scale(1.1);
+}
+div.login>p,a,span{
+	font-size: 14px;
+	color:#fff;
+}
+div.login>p>a:hover{
+	color:#EA889F;
+}
+div.login>p:nth-child(1) {
+	padding:20px 10px;
+	border-bottom:1px solid #fff;
+}
+div.login>p span b{
+	color:#D2607A;
+	font-size:16px;
+	margin-left:5px;
+}
+div.login input{
+	border:none;
+	outline:none;
+	border-radius:3px;
+	padding:15px 10px;
+	margin:0 10px;
+}
+div.login button.btn{
+	display:block;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	padding:5px 0;
+	width:260px;
+	border-radius:3px;
+	margin:0 10px;
+	background:rgba(210,96,122,0.6);
+	font-size:20px;
+	margin-top:10px;
+	border:none;
+	outline:none;
+	color:#fff;
+}
+div.login button.btn:hover{
+	background:rgba(210,96,122,0.8);
+	color:#fff;
+}
+span.rt{
+	margin-right:10px;
+}
+span.lt{
+	padding:10px 0;
+}
+div.login_auto{
+	padding:10px  0;
+}
