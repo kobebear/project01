@@ -149,7 +149,7 @@
    });
   })();
 
-  (()=>{
+(()=>{
       $.ajax({
         type:"GET",
         url:" data/index/realcase.php",
@@ -175,8 +175,38 @@
             alert("网络连接故障");
         }
    });
-
-
-
-
   })();
+
+//品牌信息
+$(()=>{
+    function loadPic(){
+        //获取$("#brandD")中class为.hover的li
+        var $li=$("#brandD>.hover");
+        //发送ajax请求
+        $.ajax({
+            type:"GET",
+            url:"data/index/brandMessage.php",
+            data:{"pid":$li.index()+1},
+            success:function(data){
+                var html="";
+                $("#smpic1").css("background-image","url("+data.img1+")");
+                $("#smpic2").css("background-image","url("+data.img2+")");
+                html=`<span id="brand-title">${data.title}</span><p id="brand-message">${data.msg}</p>`;
+                $("#brandc").html(html);
+            },
+            error:function(){
+                alert("网络连接有误！");
+            }
+        })
+    }
+    loadPic();
+    $("#brandD").on("click","li",function(){
+        //获得当前li
+        var $li=$(this);
+        if(!$li.is(".hover")) {
+            $li.addClass("hover").siblings().removeClass("hover");
+            loadPic();
+        }
+
+    });
+});

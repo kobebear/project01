@@ -23,7 +23,10 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS beauty;
+CREATE DATABASE beauty CHARSET=UTF8;
+USE beauty;
 
 --
 -- 表的结构 `be_product_details`

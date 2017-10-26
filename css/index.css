@@ -9,7 +9,7 @@
 	#navall{
 		width:100%;
 		margin:0 auto;
-		positoin:relative;
+		positoin:rela tive;
 	}
 	#navall div.ulbg{
 		background:-webkit-linear-gradient(left,#80BFFE,#4FF0C8);
@@ -347,7 +347,7 @@
 	border:1px solid transparent;
 	border-radius:3px;
 }
-#floor3 .device>ul>li:hover{
+#floor3 .device>ul>li:hover,#floor3 .device>ul>li.hover{
 	color:#398A94;
 	background-color:white;
 	opacity:0.7;
