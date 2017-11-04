@@ -120,7 +120,6 @@
         }
    });
   })();
-
 //医生信息
 (()=>{
     $("#doctors").on("mouseenter","li",function(){
@@ -140,7 +139,7 @@
         data:"",
         success:function(data){
               for(let i in data){
-             $("#right-details>li").children().eq(i).css("background","url('"+data[i].sm+"')");
+             $("#right-details>li").children("a").eq(i).css("background","url('"+data[i].sm+"')");
              $("#floor2>div").css("background","url('"+data[i].bm+"')");
          }},
         error:function(){
