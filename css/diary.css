@@ -1,0 +1,36 @@
+.dairy-main{
+    width:100%;
+    border-bottom:1px solid gray;
+}
+.diary-body{
+    width:960px;
+    margin:0 auto;
+}
+.diary-body img{
+    float:left;
+}
+.diary-items{
+    list-style: none;
+    width:700px;
+    float:left;
+    display:flex;
+    justify-content: space-between;
+}
+.diary-items li{
+    float:left;
+    width:58px;
+    height:40px;
+}
+.diary-items li a,.diary-body p a{
+    text-decoration:none;
+    color:#000;
+    font-size:14px;
+}
+.diary-body p{
+    float:right;
+}
+.dairy-main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
