@@ -2,7 +2,7 @@
     width:100%;
 }
 .diary-body{
-    width:960px;
+    width:990px;
     height:80px;
     margin:0 auto;
     position:relative;
@@ -16,6 +16,7 @@
     float:left;
     display:flex;
     justify-content: space-between;
+    margin-top:26px;
 }
 .sub-items{
     list-style: none;
@@ -49,22 +50,27 @@
 #diary-info{
     width:960px;
     margin:0 auto;
-    border-bottom:2px solid dodgerblue;
+    border-bottom:2px solid lightskyblue;
 }
 #diary-info a{
     display:inline-block;
     width:84px;
-    height:38px;
-    background:lightskyblue;
+    height:36px;
+    background:url("../img/picture2/community_tab_bg.png");
+    background-position:1px 38px;
     color:dodgerblue;
     font-size:18px;
-    line-height:38px;
+    line-height:36px;
     text-align:center;
     text-decoration:none;
-    border-radius:3px;
+    border-radius:8px 8px 0 0 ;
+}
+#diary-info a:nth-child(2),#diary-info a:nth-child(3){
+    margin-left:-4px;
 }
 #diary-info .diary-info-active,#diary-info a:hover{
-    background:dodgerblue;
+    background:url("../img/picture2/community_tab_bg.png");
+    background-position:1px 75px;
     color:#fff;
 }
 /*主要信息*/
