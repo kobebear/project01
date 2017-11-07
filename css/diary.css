@@ -1,10 +1,11 @@
 .dairy-main{
     width:100%;
-    border-bottom:1px solid gray;
 }
 .diary-body{
     width:960px;
+    height:80px;
     margin:0 auto;
+    position:relative;
 }
 .diary-body img{
     float:left;
@@ -16,7 +17,11 @@
     display:flex;
     justify-content: space-between;
 }
-.diary-items li{
+.sub-items{
+    list-style: none;
+    display:none;
+}
+.diary-items li,.sub-items li{
     float:left;
     width:58px;
     height:40px;
@@ -34,3 +39,112 @@
     display:block;
     clear:both;
 }
+.diary-items li a:hover,.diary-items li a.item-active {
+    color: #0aa1ed;
+}
+#item-sublist{
+    display:block;
+    width:58px;
+}
+#diary-info{
+    width:960px;
+    margin:0 auto;
+    border-bottom:2px solid dodgerblue;
+}
+#diary-info a{
+    display:inline-block;
+    width:84px;
+    height:38px;
+    background:lightskyblue;
+    color:dodgerblue;
+    font-size:18px;
+    line-height:38px;
+    text-align:center;
+    text-decoration:none;
+    border-radius:3px;
+}
+#diary-info .diary-info-active,#diary-info a:hover{
+    background:dodgerblue;
+    color:#fff;
+}
+/*主要信息*/
+#diary-mainInfo{
+    width:960px;
+    margin:0 auto;
+}
+#diary-mainInfo:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.diary-info-left{
+    float:left;
+    width:238px;
+    height:870px;
+}
+.diary-info-right{
+    float:right;
+    width:718px;
+    height:1183px;
+    overflow:hidden;
+}
+.diary-left-head{
+    font-size:16px;
+    padding:10px 10px 0;
+}
+.diary-left-body .left-title{
+    background:#ffa155;
+    color:#fff;
+}
+.diary-left-body a{
+    display:inline-block;
+    padding:0 10px;
+    height:28px;
+    line-height:26px;
+    background:#eaf8f6;
+    border-radius:8px;
+    margin:8px 8px;
+    font-size:14px;
+    color:#66c9be;
+    text-decoration:none;
+}
+.diary-right-title{
+    height:34px;
+    line-height:34px;
+    font-size:24px;
+    color:#48c2b7;
+    margin:6px 0 0 10px;
+    padding-bottom:33px;
+    border-bottom:1px solid #e1e1e1;
+}
+#line-left{
+    display:inline-block;
+    width:6px;
+    height:34px;
+    vertical-align:top;
+    background:#48c2b7;
+    border-radius:4px;
+    margin-right:20px;
+}
+/*右侧信息*/
+#diary-InfoC{
+    padding:0 0 0 10px;
+    margin:0;
+}
+#diary-InfoC li{
+    width:708px;
+    height:94px;
+    border-bottom:1px solid #e1e1e1;
+    padding:0 0 16px 0;
+    margin-left:0;
+    list-style:none;
+}
+#diary-InfoC li a{
+    text-decoration:none;
+    color:#66c9be;
+    font-size:16px;
+}
+#diary-InfoC .diary-content{
+    font-size:12px;
+}
+
