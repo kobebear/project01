@@ -120,7 +120,7 @@
     font-size:24px;
     color:#48c2b7;
     margin:6px 0 0 10px;
-    padding-bottom:33px;
+    padding-bottom:50px;
     border-bottom:1px solid #e1e1e1;
 }
 #line-left{
@@ -136,6 +136,8 @@
 #diary-InfoC{
     padding:0 0 0 10px;
     margin:0;
+    height:900px;
+    overflow:hidden;
 }
 #diary-InfoC li{
     width:708px;
@@ -153,4 +155,5 @@
 #diary-InfoC .diary-content{
     font-size:12px;
 }
+
 
