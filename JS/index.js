@@ -121,16 +121,16 @@
    });
   })();
 //医生信息
-(()=>{
-    $("#doctors").on("mouseenter","li",function(){
-          $(this).children("#coverdiv").show(200);
-          $(this).children("span").show(500);
-  });
-  $("#doctors").on("mouseleave","li",function(){
-          $(this).children("#coverdiv").hide(200);
-          $(this).children("span").hide(500);
-  })
-})();
+// (()=>{
+//     $("#doctors").on("mouseenter","li",function(){
+//           $(this).children("#coverdiv").show(200);
+//           // $(this).children("span").show(500);
+//   });
+//   $("#doctors").on("mouseleave","li",function(){
+//           $(this).children("#coverdiv").hide(200);
+//           // $(this).children("span").hide(500);
+//   })
+// })();
 //真实案例图片加载
 (()=>{
     $.ajax({

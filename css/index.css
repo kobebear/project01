@@ -226,21 +226,33 @@
 		height:210px;
 		background-color:#000;
 		opacity:0.3;
-		position:absolute;
-		top:0;
-		display:none;
+		position:relative;
+		top:-61px;
+		display:block;
 		padding-top:100px;
+		transition:all 0.3s linear;
 	}
+.coverdiv:hover{
+	top:-208px;
+}
 	#doctors span{
 		display:block;
 		color:white;
 		font-size:30px;
 		text-align:center;
 		position:absolute;
-		top:50%;
+		top:15px;
 		left:30%;
-		display:none;
 	}
+#doctors p{
+	display:block;
+	color:white;
+	font-size:23px;
+	text-align:center;
+	position:absolute;
+	top: 90px;
+	margin: 0 20px;
+}
 
    /* 案例 */
 #floor2{
@@ -274,7 +286,7 @@
    #floor2>#right-details>li{
 	width:130px;
 	height:145px;
-	background:pink;
+	/*background:pink;*/
    }
   #floor2>#right-details>li>a{
 	display:block;
@@ -308,14 +320,27 @@
 	margin:0 auto;
 }
 #right-details .real-text{
-	display:block;
-	width:100%;
-	height:100%;
-	position:relative;
+	background: url("../img/index/wh_img40.png") left top;
+	display: block;
+	width: 47px;
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	height: 28px;
+	padding: 117px 8px 0px 75px;
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 #right-details .real-text:hover{
-	opacity:0.4;
-	background:#000;
+	background: url("../img/index/wh_img39.png") left top;
+	width: 65px;
+	font-size: 18px;
+	line-height: 65px;
+	height: 105px;
+	padding: 40px 32px 0px 33px;
 }
 #right-details .real-text i{
 	display:block;
