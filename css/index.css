@@ -187,33 +187,37 @@
 	margin:0 auto;
 	text-align:center;
 	margin-top:20px;
+	display:flex;
+	justify-content: space-between;
 }
    /* 医生 */
 	#doctors{
-		width:100%;
-		height:200px;
-		margin:0 auto;
-		padding-left:150px;
+		width:51%;
+		height:500px;
 		box-sizing:border-box;
 	}
 	 #doctors>ul{
 	 	width:100%;
-		height:210px;
+		height:84%;
+		display:flex;
+		 justify-content: space-between;
+		 flex-wrap:wrap;
+
 	 }
 	 #doctors>ul li{
-	 	background:gray;
-		width:340px;
-		height:210px;
-		box-sizing:border-box;
-		overflow:hidden;
-		transition:all 0.3s linear;
-		margin-left:-71px;
-		float:left;
-		transform: scale(0.7);
-		position:relative;
+		 background: gray;
+		 width: 340px;
+		 height: 205px;
+		 box-sizing: border-box;
+		 overflow: hidden;
+		 transition: all 0.3s linear;
+		 /* margin-left: -71px; */
+		 float: left;
+		 transform: scale(0.96);
+		 position: relative;
 	 }
 	 #doctors>ul li:hover{
-	 	transform: scale(0.71);
+	 	/*transform: scale(0.71);*/
 	 	box-shadow: 0px  0px 1px 1px #aaa;
 		 }
 	#doctors>ul li a{
@@ -224,24 +228,105 @@
 	.coverdiv{
 		width:340px;
 		height:210px;
-		background-color:#000;
-		opacity:0.3;
-		position:absolute;
-		top:0;
-		display:none;
+		background-color:rgba(0,0,0,0.1);
+		position:relative;
+		top:-61px;
+		display:block;
 		padding-top:100px;
+		transition:all 0.3s linear;
 	}
+.coverdiv:hover{
+	top:-208px;
+}
 	#doctors span{
 		display:block;
 		color:white;
 		font-size:30px;
 		text-align:center;
 		position:absolute;
-		top:50%;
+		top:15px;
 		left:30%;
-		display:none;
 	}
-
+#doctors p{
+	display:block;
+	color:white;
+	font-size:23px;
+	text-align:center;
+	position:absolute;
+	top: 90px;
+	margin: 0 20px;
+}
+.doc-info{
+	width:50%;
+	height:500px;
+}
+.doc-left-head{
+	font-size:14px;
+	width:65%;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+.doc-left-head p{
+	display:inline-block;
+	float:right;
+}
+.doc-left-body{
+	color:#fff;
+	width: 65%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+#line-left{
+	display:inline-block;
+	width:3px;
+	height:14px;
+	vertical-align:top;
+	background:#48c2b7;
+	border-radius:4px;
+	float:left;
+}
+.doc-left-head b{
+	float:left;
+	padding-left:20px;
+	font-weight:normal;
+}
+.doc-left-body img{
+	display: block;
+	float: left;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.doc-left-body li{
+	width: 49%;
+	height: 70px;
+	padding: 30px 0;
+	margin-bottom: 10px;
+	position: relative;
+}
+#doc-info-cover{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.1);
+	opacity:0.1;
+	position:absolute;
+	top:0;
+	left:0;
+	border:1px solid #9f9f9f;
+}
+.doc-left-body li a span:nth-child(2){
+	color: #9f9f9f;
+	line-height: 16px;
+	font-size: 12px;
+}
+.doc-info-left{
+	float:left;
+	width:100%;
+	height:500px;
+}
    /* 案例 */
 #floor2{
 	width:100%;
@@ -274,7 +359,7 @@
    #floor2>#right-details>li{
 	width:130px;
 	height:145px;
-	background:pink;
+	/*background:pink;*/
    }
   #floor2>#right-details>li>a{
 	display:block;
@@ -308,14 +393,27 @@
 	margin:0 auto;
 }
 #right-details .real-text{
-	display:block;
-	width:100%;
-	height:100%;
-	position:relative;
+	background: url("../img/index/wh_img40.png") left top;
+	display: block;
+	width: 47px;
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	height: 28px;
+	padding: 117px 8px 0px 75px;
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 #right-details .real-text:hover{
-	opacity:0.4;
-	background:#000;
+	background: url("../img/index/wh_img39.png") left top;
+	width: 65px;
+	font-size: 18px;
+	line-height: 65px;
+	height: 105px;
+	padding: 40px 32px 0px 33px;
 }
 #right-details .real-text i{
 	display:block;

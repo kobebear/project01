@@ -120,7 +120,7 @@
     font-size:24px;
     color:#48c2b7;
     margin:6px 0 0 10px;
-    padding-bottom:33px;
+    padding-bottom:50px;
     border-bottom:1px solid #e1e1e1;
 }
 #line-left{
@@ -136,6 +136,8 @@
 #diary-InfoC{
     padding:0 0 0 10px;
     margin:0;
+    height:900px;
+    overflow:hidden;
 }
 #diary-InfoC li{
     width:708px;
@@ -152,5 +154,43 @@
 }
 #diary-InfoC .diary-content{
     font-size:12px;
+}
+.commonIcon{
+    width: 120px;
+    height: 60px;
+    background:red;
+    display: block;
+    border-radius:6px 0 0 6px;
+    position: relative;
+    transition: all 0.3s linear;
+}
+a.commonIcon,.commonIcon1{
+    color: #333;
+    text-decoration: none;
+    outline-style: none;
+    cursor: auto;
+    transition:all .5s linear;
+}
+.swtRirhgt {
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 28%;
+    z-index: 9999;
+}
+a.commonIcon:hover{
+    left:-60px;
+}
+.swtZhuanjia {
+    background: url("../img/index/1.png") no-repeat #25c53f center center;
+}
+.xiangmu{
+    background: url("../img/index/1.png") no-repeat #25c53f center center;
+}
+.dianhua{
+    background: url("../img/index/1.png") no-repeat #25c53f center center;
+}
+.jiage{
+    background: url("../img/index/1.png") no-repeat #25c53f center center;
 }
 
