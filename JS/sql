@@ -1,0 +1,13 @@
+insert into `device_pic` values (2,"img/device-pic/img2","pic2",""),
+(3,"img/device-pic/img3","pic3",""),
+(4,"img/device-pic/img4","pic4",""),
+(5,"img/device-pic/img5","pic5",""),
+(6,"img/device-pic/img6","pic6",""),
+(7,"img/device-pic/img7","pic7",""),
+(8,"img/device-pic/img8","pic8",""),
+(9,"img/device-pic/img9","pic9",""),
+(10,"img/device-pic/img10","pic10","");
+
+
+
+insert into `deivce_pic` values (1,"img/device-pic/img1","pic1","");
