@@ -12,7 +12,7 @@
 }
 .diary-items{
     list-style: none;
-    width:700px;
+    width:800px;
     float:left;
     display:flex;
     justify-content: space-between;
