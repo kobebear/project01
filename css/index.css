@@ -338,6 +338,11 @@
 	border-top:1px solid gray;
 	box-sizing:border-box;
    }
+#floor:after{
+	content:"";
+	display:block;
+	clear:both;
+}
    #floor2>div{
 	width:407px;
 	height:541px;
