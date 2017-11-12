@@ -79,7 +79,7 @@
 	float:left;
 }
 	#sidebar ul li:hover{
-		margin-left:10px;
+		padding-left:10px;
 	}
 	#sidebar ul li:nth-child(1)>a>i{
 		background-position:0px 104px;
