@@ -11,13 +11,14 @@ $result=mysqli_query($conn,$sql);
 $image=mysqli_fetch_all($result,MYSQLI_ASSOC);
 
 //文字
-$sql="SELECT title,brandMessage FROM brand_message WHERE id=$pid";
+$sql="SELECT title,brandMessage,bg FROM brand_message WHERE id=$pid";
 $result=mysqli_query($conn,$sql);
 $text=mysqli_fetch_all($result,MYSQLI_ASSOC);
 
 $output=[
     "title"=>$text[0]["title"],
     "msg"=>$text[0]["brandMessage"],
+    "bg"=>$text[0]["bg"],
     "img1"=>$image[0]["img"],
     "img2"=>$image[1]["img"]
 ];

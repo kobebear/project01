@@ -120,17 +120,6 @@
         }
    });
   })();
-//医生信息
-// (()=>{
-//     $("#doctors").on("mouseenter","li",function(){
-//           $(this).children("#coverdiv").show(200);
-//           // $(this).children("span").show(500);
-//   });
-//   $("#doctors").on("mouseleave","li",function(){
-//           $(this).children("#coverdiv").hide(200);
-//           // $(this).children("span").hide(500);
-//   })
-// })();
 //真实案例图片加载
 (()=>{
     $.ajax({
@@ -190,6 +179,7 @@ $(()=>{
                 var html="";
                 $("#smpic1").css("background-image","url("+data.img1+")");
                 $("#smpic2").css("background-image","url("+data.img2+")");
+                $(".device").css("background-image","url("+data.bg+")");
                 html=`<span id="brand-title">${data.title}</span><p id="brand-message">${data.msg}</p>`;
                 $("#brandc").html(html);
             },
@@ -199,7 +189,7 @@ $(()=>{
         })
     }
     loadPic();
-    $("#brandD").on("click","li",function(){
+    $("#brandD").on("mouseenter","li",function(){
         //获得当前li
         var $li=$(this);
         if(!$li.is(".hover")) {
