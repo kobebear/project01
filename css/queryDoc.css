@@ -1,0 +1,23 @@
+#path_Box{
+    line-height: 34px;
+    padding-top: 6px;
+}
+#path_Box a {
+    color: #66c9be;
+    text-decoration: none;
+}
+ul.optul{
+    margin:0 auto;
+    width:960px;
+    height:211px;
+    border:solid 1px #e6e9ea;
+    /*border-width: 1px 0;*/
+    padding-top: 5px;
+}
+ul.optul li{
+    border-top: 0;
+}<a href="#">大陆</a>
+
+
+
+
