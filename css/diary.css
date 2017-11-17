@@ -85,14 +85,25 @@
 }
 .diary-info-left{
     float:left;
+    clear:left;
     width:238px;
     height:870px;
+}
+.diary-info-leftTop{
+    float:left;
+    width:238px;
+    height:100px;
 }
 .diary-info-right{
     float:right;
     width:718px;
     height:1183px;
     overflow:hidden;
+}
+.diary-info-left,.diary-info-leftTop{
+    border: solid 2px #f1fcfb;
+    border-radius: 8px;
+    margin-top: 16px;
 }
 .diary-left-head{
     font-size:16px;
@@ -140,10 +151,10 @@
     overflow:hidden;
 }
 #diary-InfoC li{
-    width:708px;
-    height:94px;
-    border-bottom:1px solid #e1e1e1;
-    padding:0 0 16px 0;
+    width:730px;
+    height:135px;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 24px 0 16px;
     margin-left:0;
     list-style:none;
 }
@@ -155,6 +166,29 @@
 #diary-InfoC .diary-content{
     font-size:12px;
 }
+.doc-pic-name{
+    float: left;
+    width: 112px;
+}
+#diary-InfoC .doc-name{
+    display: block;
+    width: 112px;
+    text-align: center;
+    font-size: 18px;
+    color: #3c5a57;
+}
+#diary-InfoC img{
+    width:64px;
+    height:64px;
+    margin-left: 24px;
+}
+#diary-InfoC p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
 .commonIcon{
     width: 120px;
     height: 60px;
