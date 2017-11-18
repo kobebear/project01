@@ -25,7 +25,7 @@ $result = mysqli_query($conn,$sql);
 $rows = mysqli_fetch_all($result,MYSQLI_ASSOC);
 
 //8??????????
-$sql = "SELECT count(*) FROM xz_laptop";
+$sql = "SELECT count(*) FROM detailsinfo";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_row($result);//??
 $count = intval($row[0]);
@@ -43,20 +43,3 @@ $output = [
 ];
 //11:??
 echo json_encode($output);
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

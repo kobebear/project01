@@ -1,3 +1,16 @@
+//加载头部和尾部
+(()=>{
+    ajax("get","indexFooter.html","","text").then(html=>{
+        document.getElementById("footer").innerHTML=html;
+    });
+
+})();
+(()=>{
+    ajax("get","indexHead.html","","text").then(html=>{
+        document.getElementById("header").innerHTML=html;
+    });
+})();
+
 //加载广告轮播
 (()=>{
   ajax("get","data/index/banner.php","")
@@ -164,7 +177,6 @@
         }
    });
   })();
-
 //品牌信息
 $(()=>{
     function loadPic(){
