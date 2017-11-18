@@ -1,3 +1,4 @@
+//按项目查看
 //加载尾部
 (()=>{
     ajax("get","indexFooter.html","","text").then(html=>{
@@ -13,7 +14,7 @@ $(function(){
             type:"GET",
             url:"data/diary/diaryInfo.php",
         }).then(data=>{
-            console.log(data);
+            // console.log(data.pno);
             let fhtml="";
             for(let i of data.data){
                 fhtml+=`
@@ -30,33 +31,35 @@ $(function(){
                     `;
             }
             $("#diary-InfoC").html(fhtml);
-            //
-            //            let html = "";
-            //            if(data.pno-2>0){
-            //                html += `
-            // <li><a href="#">${data.pno-2}</a></li>
-            // `;
-            //            }
-            //            if(data.pno-1>0){
-            //                html += `
-            // <li><a href="#">${data.pno-1}</a></li>
-            // `;
-            //            }
-            //
-            //            html += `
-            // <li class="active"><a href="#">${data.pno}</a></li>
-            // `;
-            //            if(data.pno+1<=data.pageCount){
-            //                html += `
-            // <li><a href="#">${data.pno+1}</a></li>
-            // `;
-            //            }
-            //            if(data.pno+2<=data.pageCount){
-            //                html += `
-            // <li><a href="#">${data.pno+2}</a></li>
-            // `;
-            //            }
-            //            $("#pagination").html(html);
+            let html = "";
+            html+="<li><a href=\"#\">上一页</a></li>";
+            if(data.pno-2>0){
+                html += `
+            <li><a href="#">${data.pno-2}</a></li>
+            `;
+            }
+            if(data.pno-1>0){
+                html += `
+            <li><a href="#">${data.pno-1}</a></li>
+            `;
+            }
+
+            html += `
+            <li class="active"><a href="#">${data.pno}</a></li>
+            `;
+            if(data.pno+1<=data.pageCount){
+                html += `
+            <li><a href="#">${data.pno+1}</a></li>
+            `;
+            }
+            if(data.pno+2<=data.pageCount){
+                html += `
+            <li><a href="#">${data.pno+2}</a></li>
+            `;
+
+            }
+            html+="<li><a href=\"#\">下一页</a></li>";
+            $("#pagination").html(html);
         })
     }
     //7:拼接计算

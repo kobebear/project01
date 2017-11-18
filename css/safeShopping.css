@@ -1,11 +1,39 @@
 #selector1,#selector2{
     width: 1050px;
     margin:0 auto;
+    padding:0;
+}
+.item-list{
+    width: 999px;
+    margin:0 auto;
+    padding:0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,li{
+    list-style:none;
 }
 #selector1{
     margin-top:10px;
 }
 .case-box{
+    display:flex;
+    justify-content: space-between;
+}
+.case-box a{
+    position: relative;
+    display: block;
+    min-height: 70px;
+    padding: 12px 15px;
+    text-align: center;
+    background: #FFF7F8;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 1s linear 0s;
+    -webkit-transition: all 1s linear 0s;
+}
+.case-box li {
     float: left;
     display: block;
     width: 182px;
@@ -15,19 +43,7 @@
     border-radius: 5px;
     border: 1px solid transparent;
 }
-.case-box a{
-    position: relative;
-    display: block;
-    min-height: 70px;
-    padding: 12px 15px;
-    text-align: left;
-    background: #FFF7F8;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    transition: all 1s linear 0s;
-    -webkit-transition: all 1s linear 0s;
-}
-.bg{
+.case-box li .bg{
     position: absolute;
     top: 80px;
     right: 0;
@@ -35,14 +51,24 @@
     width: 168px;
     transition: all .2s linear 0s;
 }
-.big-title{
+.case-box li.active .bg {
+    top: 0px;
+}
+
+.case-box li .big-title{
     color: #FF8EA3;
     font-size: 20px;
     margin-bottom: 2px;
 }
-.small-title{
+.case-box li.active .big-title{
+    text-align:left;
+}
+.case-box li .small-title{
     font-size: 12px;
     color: #767676;
+}
+.case-box li.active .small-title{
+    text-align:left;
 }
 .item-box .item-list .item:nth-child(-n+9) {
     border-top: 1px solid #f7f7f7;
@@ -63,6 +89,7 @@
     box-sizing: border-box;
     cursor: pointer;
     text-align: center;
+
 }
 .nav{
     width: 100%;
@@ -103,4 +130,116 @@
     content:"";
     display:block;
     clear:both;
+}
+.icon-menu{
+    height: 30px;
+    width: 30px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    display: block;
+}
+.top-item{
+    display: block;
+    color: #333;
+    width: 100%;
+    padding: 23px 0 20px;
+    text-decoration: none;
+}
+
+#selector2 .title {
+    border-left: 3px solid #73DACF;
+    padding-left: 10px;
+    color: #333;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.case-box a:hover,.item-list a:hover{
+    text-decoration: none;
+}
+.item-box .item-list .item:nth-child(n+9) {
+    padding-top: 1px;
+}
+.item-box .item-list .sub-box{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    -o-align-items: stretch;
+    align-items: stretch;
+    position: absolute;
+    padding-top: 10px;
+    top: 115px;
+    left: 0;
+    width: 100%;
+    background: #fdfdfd;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    z-index: 99;
+}
+.item-box .item-list .item:nth-child(n+9) .sub-box{
+    top: 215px;
+    display:none;
+}
+.item-box .item-list .item:nth-child(-n+9) .sub-box{
+    top: 115px;
+    display:none;
+}
+
+
+.item-box .item-list .item.active .sub-box{
+    display:block;
+}
+.item-box .item-list .item .sub-box .son {
+    float: left;
+    padding: 0 15px 20px;
+    text-align: left;
+    width:150px;
+    height:100%;
+    margin-left:30px;
+}
+.item-box .item-list .sub-box .son .title {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 700;
+}
+.item-box .item-list .sub-box .son .content {
+    padding-top: 10px;
+    overflow: hidden;
+}
+.item-box .item-list .sub-box .arrow {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url(../images/triangle_new.png);
+    background-size: 100% 100%;
+    z-index: 100;
+}
+.item-list{
+    position:relative;
+}
+.col{
+    float:left;
+    margin-right:20px;
+    height:80px;
+}
+.col a{
+    display:block;
+    height:14px;
+    margin-top:5px;
 }
