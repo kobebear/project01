@@ -112,7 +112,7 @@
         data:"",
         success:function(data){
               for(var i in data){
-              $("#doctors>ul>li>a").eq(i).css("background","url('"+data[i].img+"')");
+              $("#doctors.sql>ul>li>a").eq(i).css("background","url('"+data[i].img+"')");
             }
         },
         error:function(){
