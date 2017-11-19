@@ -1,6 +1,6 @@
 <?php
 header("Content-Type:application/json;charset=utf-8");
-require("init.php");
+require("../init.php");
 @$pid=$_REQUEST["pid"];
 
 mysqli_query($conn,"SET NAMES UTF8");

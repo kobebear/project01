@@ -1,7 +1,7 @@
 <?php
 
 header("Content-Type:text/plain");
-require_once("./init.php");
+require_once("../init.php");
 
 @$u=$_REQUEST["uname"];
 @$p=$_REQUEST["upwd"];

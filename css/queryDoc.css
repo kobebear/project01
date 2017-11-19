@@ -2,9 +2,9 @@
     width:960px;
     margin:0 auto;
 }
-div{
-    border:1px solid gray;
-}
+/*div{*/
+    /*border:1px solid gray;*/
+/*}*/
 #path_Box{
     line-height: 34px;
     padding-top: 6px;
@@ -50,7 +50,9 @@ ul.optul li a{
     margin: 0 20px 10px 0;
 }
 
-
+.nav-box li{
+    color:#fff;
+}
 
 
 

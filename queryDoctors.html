@@ -5,8 +5,42 @@
     <title>Doctors</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/queryDoc.css">
+    <link rel="stylesheet" href="css/safeShopping.css">
+    <link rel="stylesheet" href="css/diary.css">
 </head>
 <body>
+<div class="dairy-main">
+    <div class="diary-body">
+        <img src="img/login/Logo.png" width=100px;>
+        <ul class="diary-items">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">直播</a></li>
+            <li><a href="#" class="item-active">美丽日记</a></li>
+            <li><a href="#">安心购</a></li>
+            <li><a href="#">医院</a></li>
+            <li><a href="#">医生</a></li>
+            <li id="item-sublist"><a href="#">圈子</a>
+                <ul class="sub-items">
+                    <li><a href="#">圈子</a></li>
+                    <li><a href="#">活动</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">达人</a></li>
+                </ul>
+            </li>
+            <li><a href="#">项目宝典</a></li>
+            <li><a href="#">云诊所</a></li>
+        </ul>
+        <!--<p><a href="#">登录</a>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;<a href="#">注册</a></p>-->
+    </div>
+</div>
+<div class="nav">
+    <ul class="nav-box">
+        <li>首页</li>
+        <li>热门</li>
+        <li>医院</li>
+        <li><a href="#" class="current" >医生</a></li>
+    </ul>
+</div>
   <div class="main">
       <header></header>
       <div id="top">
@@ -23,20 +57,31 @@
           </ul>
           <div id="filter_Box"></div>
           <ul class="btmul">
-              <li>
-                  <img src="" alt="医生图片">
-                  <div>
-                      <a href="#"></a>
-                      <span></span>
-                  </div>
-                  <p><span>所在医院：</span><a href="#">扬州美贝尔医疗美容</a></p>
-                  <p><span>当前职务：</span><a href="#">院长</a></p>
-                  <p><span>擅长项目：</span><a href="#">鼻部整形</a><a href="#">胸部整形</a><a href="#">自体脂肪</a></p>
-              </li>
+              <!--<li>-->
+                  <!--<img src="" alt="医生图片">-->
+                  <!--<div>-->
+                      <!--<a href="#"></a>-->
+                      <!--<span></span>-->
+                  <!--</div>-->
+                  <!--<p><span>所在医院：</span><a href="#">扬州美贝尔医疗美容</a></p>-->
+                  <!--<p><span>当前职务：</span><a href="#">院长</a></p>-->
+                  <!--<p><span>擅长项目：</span><a href="#">鼻部整形</a><a href="#">胸部整形</a><a href="#">自体脂肪</a></p>-->
+              <!--</li>-->
           </ul>
       </div>
+      <ul class="pagination" id="pagination">
+          <!--<li><a href="#">上一页</a></li>-->
+          <!--<li><a href="#">1</a></li>-->
+          <!--<li><a href="#">2</a></li>-->
+          <!--<li class="active"><a href="#">3</a></li>-->
+          <!--<li><a href="#">4</a></li>-->
+          <!--<li><a href="#">5</a></li>-->
+          <!--<li><a href="#">下一页</a></li>-->
+      </ul>
       <footer></footer>
 
   </div>
+<script src="JS/jquery-3.2.1.js"></script>
+<script src="JS/queryDoctors.js"></script>
 </body>
 </html>

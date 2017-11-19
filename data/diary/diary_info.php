@@ -1,6 +1,6 @@
 <?php
  header("Content-Type:application/json");
- require_once("init.php");
+ require_once("../init.php");
 
  @$pno = $_REQUEST["pno"];
  if(!$pno){
