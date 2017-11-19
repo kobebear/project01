@@ -1,26 +1,23 @@
 //按医生查看
 //加载尾部
-(()=>{
-    $.get("indexFooter.html").then(html=>{
-        document.getElementById("footer").innerHTML=html;
-    });
-})();
+$("#footer").load("indexFooter.html");
 
 //加载条目和分页
-$(function() {
-    function loadProductByPage(pno, pageSize) {
-        $.get("data/diary/diary_info.php").then(result => {
+$(()=>{
+    function loadProductByPage(pno) {
+        $.get("data/doctor/queryDoctor.php",{pno}).then(result => {
             var data=result.data;
             let fhtml="";
-            for(let i of data){
+            for(let d of data){
+                console.log(d);
                 fhtml+=`
                    <li>
                     <div class="doc-pic-name">
-                        <img src="${i.after_pic}" alt="">
-                        <a href="" class="doc-name">${i.doctor}</a>
+                        <img src="${d.pic}" alt="">
+                        <a href="" class="doc-name">${d.doctor_name}</a>
                     </div>
-                    <p><span>资质:</span><span>暂无</span></p>
-                    <p><span>机构:</span><span>${i.hospital}</span></p>
+                    <p><span>机构:</span><span>${d.hospital}</span></p>
+                    <p><span>技能: </span>${d.skills}</p>
                     <div>
                     </div>
                 </li>
@@ -56,6 +53,5 @@ $(function() {
         })
     }
     //7:拼接计算
-    loadProductByPage(1,8);
-
+    loadProductByPage(1);
 });

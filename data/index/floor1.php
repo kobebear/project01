@@ -4,7 +4,7 @@ header("Content-Type:application/json;charset=utf-8");
 require_once("../init.php");
 
 mysqli_query($conn,"SET NAMES UTF8");
-$sql="select img from doctors";
+$sql="select img from index_doctors";
 $result=sql_execute($sql);
 
 echo json_encode($result);

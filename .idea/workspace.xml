@@ -2,93 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79243d5-ffa8-44ec-a589-549ee7d27e53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20140528104800117_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20140906104256722_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20141127114446614_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20141129100220308_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20150331115423258_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20150716171424834_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20151019105421469_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20151104112300756_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20151106180213433_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20151128131609112_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20151209172609672_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160105142140878_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160127105224120_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160201160715401_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160318142150165_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160412105351138_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160526151455752_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160607112430342_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160618170014589_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160719170859728_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160811085630337_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20160921164812608_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20161207115649518_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20161209131311665_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20161220153315914_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170124100059258_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170217170407934_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170303145456892_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170331093945286_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170416154736192_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170427170409297_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170510110046925_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170522145000658_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170530121437764_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170531145207755_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170604134942599_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170605181008313_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170616122631244_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170625203241324_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170626174539923_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170630141744148_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170704160004820_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170711115652840_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170713171559504_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170718132436907_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170730100025269_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170814131522846_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170817095723658_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170817110708572_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170823184746560_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170901095648159_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170905095342523_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170913141034988_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170915133056152_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20170928191942264_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171006162339964_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171027103515142_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171030131024567_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171103101447847_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171105105949803_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171106175821114_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171110103219716_200_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/20171117094726319_200_200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/8389.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/93427429dc5144b6bcb5cfe26fd7f802.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/banner1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/doctor@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/serve_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/tag_icon_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/picture2/tag_icon_d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/queryDoctors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/doctor/queryDoctor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/init.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/index/init.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/diary/init.php" afterPath="$PROJECT_DIR$/data/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/diary/diaryinfo.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/queryDoc.css" afterPath="$PROJECT_DIR$/css/queryDoc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/dairy.js" afterPath="$PROJECT_DIR$/JS/dairy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/index.js" afterPath="$PROJECT_DIR$/JS/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/queryDoctors.js" afterPath="$PROJECT_DIR$/JS/queryDoctors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dairy-ByItem.html" afterPath="$PROJECT_DIR$/dairy-ByItem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/beauty.sql" afterPath="$PROJECT_DIR$/data/beauty.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/diary/diary_info.php" afterPath="$PROJECT_DIR$/data/diary/diary_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/diary/diaryinfo.php" afterPath="$PROJECT_DIR$/data/diary/diaryinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/banner.php" afterPath="$PROJECT_DIR$/data/index/banner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/doctor/queryDoctor.php" afterPath="$PROJECT_DIR$/data/doctor/queryDoctor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/brandMessage.php" afterPath="$PROJECT_DIR$/data/index/brandMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/details.php" afterPath="$PROJECT_DIR$/data/index/details.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/floor1.php" afterPath="$PROJECT_DIR$/data/index/floor1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/login.php" afterPath="$PROJECT_DIR$/data/index/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index/realcase.php" afterPath="$PROJECT_DIR$/data/index/realcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/queryDoctors.html" afterPath="$PROJECT_DIR$/queryDoctors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/init.php" afterPath="$PROJECT_DIR$/data/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,103 +34,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="queryDoctor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/doctor/queryDoctor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+      <file leaf-file-name="beauty.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/beauty.sql">
+          <provider selected="true" editor-type-id="OdpsQlEditor">
+            <state relative-caret-position="30">
+              <caret line="450" column="2" lean-forward="false" selection-start-line="450" selection-start-column="2" selection-end-line="450" selection-end-column="2" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/banner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brandMessage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/brandMessage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/details.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="floor1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/floor1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="realcase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/index/realcase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary_info.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/diary/diary_info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diaryinfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/diary/diaryinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
+          <provider editor-type-id="OdpsQlGraph">
+            <state />
           </provider>
         </entry>
       </file>
@@ -229,6 +71,11 @@
       <find>class=&quot;sub-box &quot; style=&quot;display: none;&quot;</find>
       <find>class=&quot;sub-box  sub-2 &quot; style=&quot;display: none;&quot;</find>
       <find>sub-box</find>
+      <find>doctors</find>
+      <find>data/diary/</find>
+      <find>data/diary/diary</find>
+      <find>孙笠</find>
+      <find>1</find>
     </findStrings>
     <replaceStrings>
       <replace>after_pic</replace>
@@ -240,6 +87,8 @@
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\project01\img</dir>
+      <dir>C:\xampp\htdocs\project01\data</dir>
+      <dir>C:\xampp\htdocs\project01\JS</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -248,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/beauty.sql" />
         <option value="$PROJECT_DIR$/JS/sql" />
         <option value="$PROJECT_DIR$/JS/sqls" />
         <option value="$PROJECT_DIR$/header.html" />
@@ -259,12 +107,7 @@
         <option value="$PROJECT_DIR$/dairy_info.sql" />
         <option value="$PROJECT_DIR$/JS/dairy-main.js" />
         <option value="$PROJECT_DIR$/css/diary_info.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/JS/index.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dairy-main.html" />
-        <option value="$PROJECT_DIR$/dairy-ByItem.html" />
-        <option value="$PROJECT_DIR$/JS/dairy.js" />
         <option value="$PROJECT_DIR$/diary_head.html" />
         <option value="$PROJECT_DIR$/css/diary.css" />
         <option value="$PROJECT_DIR$/safeShopping.html" />
@@ -273,17 +116,24 @@
         <option value="$PROJECT_DIR$/css/safeShopping.css" />
         <option value="$PROJECT_DIR$/JS/safeShopping.js" />
         <option value="$PROJECT_DIR$/css/queryDoc.css" />
-        <option value="$PROJECT_DIR$/JS/queryDoctors.js" />
         <option value="$PROJECT_DIR$/queryDoctors.html" />
-        <option value="$PROJECT_DIR$/data/diary/diary_info.php" />
         <option value="$PROJECT_DIR$/data/diary/diaryinfo.php" />
-        <option value="$PROJECT_DIR$/data/doctor/queryDoctor.php" />
         <option value="$PROJECT_DIR$/data/index/banner.php" />
-        <option value="$PROJECT_DIR$/data/index/brandMessage.php" />
         <option value="$PROJECT_DIR$/data/index/details.php" />
-        <option value="$PROJECT_DIR$/data/index/floor1.php" />
         <option value="$PROJECT_DIR$/data/index/login.php" />
         <option value="$PROJECT_DIR$/data/index/realcase.php" />
+        <option value="$PROJECT_DIR$/data/index/floor1.php" />
+        <option value="$PROJECT_DIR$/dairy-ByItem.html" />
+        <option value="$PROJECT_DIR$/data/init.php" />
+        <option value="$PROJECT_DIR$/data/index/brandMessage.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/JS/index.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/JS/dairy.js" />
+        <option value="$PROJECT_DIR$/data/diary/diary_info.php" />
+        <option value="$PROJECT_DIR$/data/doctor/queryDoctor.php" />
+        <option value="$PROJECT_DIR$/JS/queryDoctors.js" />
+        <option value="$PROJECT_DIR$/data/beauty.sql" />
       </list>
     </option>
   </component>
@@ -323,8 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,13 +184,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -357,11 +207,11 @@
       <recent name="C:\xampp\htdocs\project01\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project01\data" />
       <recent name="C:\xampp\htdocs\project01\data\doctor" />
       <recent name="C:\xampp\htdocs\project01\img\picture2" />
       <recent name="C:\xampp\htdocs\project01\img\safeShopping" />
       <recent name="C:\xampp\htdocs\project01\img\index" />
-      <recent name="C:\xampp\htdocs\project01\img\device-pic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,7 +322,8 @@
       <workItem from="1510836746628" duration="35000" />
       <workItem from="1510970342915" duration="29404000" />
       <workItem from="1511062252711" duration="5035000" />
-      <workItem from="1511103580450" duration="167000" />
+      <workItem from="1511103580450" duration="17395000" />
+      <workItem from="1511121098165" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="2017/10/16">
       <created>1509023442865</created>
@@ -579,28 +430,35 @@
       <option name="project" value="LOCAL" />
       <updated>1510979394506</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2017/11/19">
+      <created>1511103767247</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1511103767247</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122897000" />
+    <option name="totallyTimeSpent" value="140138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23114754" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07704918" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07704918" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07582939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,81 +504,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2017/10/16" />
     <MESSAGE value="2017/11/07" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017/11/07" />
+    <MESSAGE value="2017/11/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017/11/19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/JS/index.js</url>
-          <line>120</line>
+          <line>113</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/JS/index.js</url>
-          <line>180</line>
+          <line>152</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/JS/index.js</url>
-          <line>94</line>
+          <line>87</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS/index.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/index/case1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/case2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/case5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/case4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index/scase1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/index/case2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -751,13 +565,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="544" column="17" lean-forward="false" selection-start-line="544" selection-start-column="17" selection-end-line="544" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -769,36 +576,10 @@
     <entry file="file://$PROJECT_DIR$/JS/indexHead.js" />
     <entry file="file://$PROJECT_DIR$/JS/footer.js" />
     <entry file="file://$PROJECT_DIR$/JS/header.js" />
-    <entry file="file://$PROJECT_DIR$/JS/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="134" column="7" lean-forward="true" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#143#0" expanded="false" />
-            <element signature="e#153#278#0" expanded="false" />
-            <element signature="e#298#2505#0" expanded="false" />
-            <element signature="e#357#2502#0" expanded="false" />
-            <element signature="e#403#418#0" expanded="false" />
-            <element signature="e#2517#2588#0" expanded="false" />
-            <element signature="e#2604#3191#0" expanded="false" />
-            <element signature="e#4954#5998#0" expanded="false" />
-            <marker date="1510979035545" expanded="true" signature="548:676" ph="..." />
-            <marker date="1510979035545" expanded="true" signature="602:658" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/diary.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="158" column="20" lean-forward="true" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dairy-ByDoctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="83" column="21" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="83" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -816,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/dairy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/safeShopping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -830,18 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/safeShopping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/queryDoc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,22 +615,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1007#1154#0" expanded="false" />
-            <element signature="e#1191#1338#0" expanded="false" />
-            <marker date="1511007950576" expanded="true" signature="410:794" ph="..." />
-            <marker date="1511007950576" expanded="true" signature="457:591" ph="..." />
-            <marker date="1511007950576" expanded="true" signature="745:772" ph="..." />
-            <marker date="1511007950576" expanded="true" signature="774:794" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dairy-main.html">
+    <entry file="file://$PROJECT_DIR$/data/doctor/init.php" />
+    <entry file="file://$PROJECT_DIR$/data/index/banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme-diary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/realcase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/floor1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doctor_skill_rel.sql">
+      <provider selected="true" editor-type-id="OdpsQlEditor">
+        <state relative-caret-position="120">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="OdpsQlGraph">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/diary/diaryinfo.php" />
+    <entry file="file://$PROJECT_DIR$/data/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/brandMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="508" column="1" lean-forward="true" selection-start-line="508" selection-start-column="1" selection-end-line="508" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="212" column="31" lean-forward="true" selection-start-line="212" selection-start-column="31" selection-end-line="212" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexHead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safeShopping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -875,156 +721,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/dairy-main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="220" column="4" lean-forward="true" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/beauty.sql">
-      <provider editor-type-id="OdpsQlGraph">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="OdpsQlEditor">
-        <state relative-caret-position="180">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/dairy-ByDoctors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/doctor_skill_rel.sql">
-      <provider editor-type-id="OdpsQlGraph">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="OdpsQlEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/JS/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="180" column="82" lean-forward="false" selection-start-line="180" selection-start-column="82" selection-end-line="180" selection-end-column="82" />
+          <folding>
+            <element signature="e#172#2317#0" expanded="false" />
+            <element signature="e#218#233#0" expanded="false" />
+            <element signature="e#2330#2401#0" expanded="false" />
+            <element signature="e#2418#2997#0" expanded="false" />
+            <element signature="e#3028#3237#0" expanded="false" />
+            <element signature="e#3819#4315#0" expanded="false" />
+            <element signature="e#4567#5080#0" expanded="false" />
+            <marker date="1511114781475" expanded="true" signature="363:491" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="417:473" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4626:4655" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4656:5060" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4703:5045" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4735:4864" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4907:4938" ph="..." />
+            <marker date="1511114781475" expanded="true" signature="4988:5019" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dairy-ByItem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="81" selection-start-column="12" selection-end-line="89" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/queryDoctors.js">
+    <entry file="file://$PROJECT_DIR$/JS/dairy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#999#1130#0" expanded="false" />
-            <element signature="e#1159#1290#0" expanded="false" />
-            <element signature="e#1408#1539#0" expanded="false" />
-            <element signature="e#1582#1714#0" expanded="false" />
-            <marker date="1511078422333" expanded="true" signature="410:814" ph="..." />
-            <marker date="1511078422333" expanded="true" signature="457:610" ph="..." />
-            <marker date="1511078422333" expanded="true" signature="765:792" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queryDoctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/doctor/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/diary/diaryinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/doctor/queryDoctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/brandMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/floor1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/realcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/diary/diary_info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doctor/queryDoctor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20141127114446614_200_200.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20150417113909797_150_50.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20171117094726319_200_200.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20171106175821114_200_200.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20140528104800117_200_200.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/queryDoctors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queryDoctors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20160811154001860_301_301.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20160921164812608_200_200.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/picture2/20160925113154552_64_64.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/beauty.sql">
+      <provider selected="true" editor-type-id="OdpsQlEditor">
+        <state relative-caret-position="30">
+          <caret line="450" column="2" lean-forward="false" selection-start-line="450" selection-start-column="2" selection-end-line="450" selection-end-column="2" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="OdpsQlGraph">
+        <state />
       </provider>
     </entry>
   </component>

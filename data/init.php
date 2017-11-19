@@ -8,7 +8,7 @@ $db_charset = 'UTF8';
 
 $conn = mysqli_connect(
   $db_host, $db_user, $db_password, $db_database, $db_port);
-  mysqli_query($conn, "SET NAMES $db_charset");
+mysqli_query($conn, "SET NAMES $db_charset");
 function sql_execute($sql){
   global $conn;
   $result = mysqli_query($conn, $sql);
