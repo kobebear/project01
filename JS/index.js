@@ -156,7 +156,7 @@ $(()=>{
   var TOP=50;
   $.get("data/index/brandMessage.php")
     .then(data=>{
-      var html = ""
+      var html = "";
       for (var d of data) {
         html+=`
          <div class="device fade" style="background-image:url(${d.bg})">
