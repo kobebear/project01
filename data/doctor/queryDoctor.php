@@ -8,34 +8,39 @@ if(!$pno) $pno=1;
 $where=[];
 
 @$country=$_REQUEST["country"];
-if(!$country) $country="大陆";
+if(!$country) $country=["大陆"];
 $where[]=" country in ('".implode("','",$country)."') ";
 
 @$title=$_REQUEST["title"];
-if(!$title) $title=0;
+if(!$title) $title=[];
 else
   $where[]=" title in ('".implode("','",$title)."') ";
 
 @$qualify=$_REQUEST["qualify"];
-if(!$qualify) $qualify=0;
+if(!$qualify) $qualify=[];
 else
   $where[]=" qualify in ('".implode("','",$qualify)."') ";
 
-@$year=$_REQUEST["year"];
-if(!$year) $year=0;
+@$years=$_REQUEST["years"];
+if(!$years) $years=[];
 else{
-  for($i=0;$i<count($year);$i++)
- if($year=="10年以上")
-  $where[]=" year>=10 ";
-else if($year=="4~9年")
-  $where[]=" year>=4 and year<=9 ";
-else if($year=="2~3年")
-  $where[]=" year>=2 and year<=3 ";
-else if($year=="1年以内")
-  $where[]=" year<=1 ";
+  $arr=[];
+  for($i=0;$i<count($years);$i++){
+     if($years[$i]=="10年以上"){
+       $arr[]=" years>=10 ";
+     }else if($years[$i]=="4~9年"){
+       $arr[]=" years>=4 and years<=9 ";
+     }else if($years[$i]=="2~3年"){
+       $arr[]=" years>=2 and years<=3 ";
+     }else if($years[$i]=="1年以内"){
+       $arr[]=" years>=0 and years<=1 ";
+     }
+  }
+  $where[]=" (".implode(" || ",$arr).") ";
+}
 
 @$edu_level=$_REQUEST["edu_level"];
-if(!$edu_level) $edu_level=0;
+if(!$edu_level) $edu_level=[];
 else
   $where[]=" edu_level in ('".implode("','",$edu_level)."') ";
 
@@ -45,7 +50,6 @@ else
   $where="";
 
 $sql = "SELECT count(*) FROM doctors $where";
-var_dump($sql);
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_row($result);
 $count = intval($row[0]);
@@ -71,10 +75,10 @@ $output = [
   "pageCount"=>ceil($count/$pageSize),
   "pno"=>1,
   "country"=>$country,
-  "title"=>0,
-  "qualify"=>0,
-  "year"=>0,
-  "edu_level"=>0,
+  "title"=>$title,
+  "qualify"=>$qualify,
+  "years"=>$years,
+  "edu_level"=>$edu_level,
   "data"=>$rows
 ];
 
