@@ -9,21 +9,23 @@ $where=[];
 
 @$country=$_REQUEST["country"];
 if(!$country) $country="大陆";
-$where[]=" country in ['".implode("','",$country)."'] ";
+$where[]=" country in ('".implode("','",$country)."') ";
 
 @$title=$_REQUEST["title"];
 if(!$title) $title=0;
 else
-  $where[]=" title in ['".implode("','",$title)."'] ";
+  $where[]=" title in ('".implode("','",$title)."') ";
 
 @$qualify=$_REQUEST["qualify"];
 if(!$qualify) $qualify=0;
 else
-  $where[]=" qualify in ['".implode("','",$qualify)."'] ";
+  $where[]=" qualify in ('".implode("','",$qualify)."') ";
 
 @$year=$_REQUEST["year"];
 if(!$year) $year=0;
-else if($year=="10年以上")
+else{
+  for($i=0;$i<count($year);$i++)
+ if($year=="10年以上")
   $where[]=" year>=10 ";
 else if($year=="4~9年")
   $where[]=" year>=4 and year<=9 ";
@@ -35,15 +37,15 @@ else if($year=="1年以内")
 @$edu_level=$_REQUEST["edu_level"];
 if(!$edu_level) $edu_level=0;
 else
-  $where[]=" edu_level in ['".implode("','",$edu_level)."'] ";
+  $where[]=" edu_level in ('".implode("','",$edu_level)."') ";
 
 if(count($where)>0)
   $where=" where ".implode(" and ",$where);
 else
   $where="";
 
-var_dump($where);
 $sql = "SELECT count(*) FROM doctors $where";
+var_dump($sql);
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_row($result);
 $count = intval($row[0]);
