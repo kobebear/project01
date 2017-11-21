@@ -30,6 +30,11 @@ $output = [
   "pageSize"=>$pageSize,
   "pageCount"=>ceil($count/$pageSize),
   "pno"=>1,
+  "country"=>0,
+  "title"=>0,
+  "qualify"=>0,
+  "year"=>0,
+  "edu_level"=>0,
   "data"=>$rows
 ];
 
