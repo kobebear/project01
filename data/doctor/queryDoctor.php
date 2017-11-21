@@ -5,14 +5,54 @@ $pageSize=10;
 @$pno = $_REQUEST["pno"];
 if(!$pno) $pno=1;
 
-$sql = "SELECT count(*) FROM doctors";
+$where=[];
+
+@$country=$_REQUEST["country"];
+if(!$country) $country="大陆";
+$where[]=" country in ('".implode("','",$country)."') ";
+
+@$title=$_REQUEST["title"];
+if(!$title) $title=0;
+else
+  $where[]=" title in ('".implode("','",$title)."') ";
+
+@$qualify=$_REQUEST["qualify"];
+if(!$qualify) $qualify=0;
+else
+  $where[]=" qualify in ('".implode("','",$qualify)."') ";
+
+@$year=$_REQUEST["year"];
+if(!$year) $year=0;
+else{
+  for($i=0;$i<count($year);$i++)
+ if($year=="10年以上")
+  $where[]=" year>=10 ";
+else if($year=="4~9年")
+  $where[]=" year>=4 and year<=9 ";
+else if($year=="2~3年")
+  $where[]=" year>=2 and year<=3 ";
+else if($year=="1年以内")
+  $where[]=" year<=1 ";
+
+@$edu_level=$_REQUEST["edu_level"];
+if(!$edu_level) $edu_level=0;
+else
+  $where[]=" edu_level in ('".implode("','",$edu_level)."') ";
+
+if(count($where)>0)
+  $where=" where ".implode(" and ",$where);
+else
+  $where="";
+
+$sql = "SELECT count(*) FROM doctors $where";
+var_dump($sql);
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_row($result);
 $count = intval($row[0]);
 
 $offset=($pno-1)*$pageSize;
 
-$sql="SELECT * FROM doctors limit $offset,$pageSize";
+$sql="SELECT * FROM doctors $where limit $offset,$pageSize";
 $result = mysqli_query($conn,$sql);
 $rows = mysqli_fetch_all($result,1);
 for($i=0;$i<count($rows);$i++){
@@ -30,7 +70,7 @@ $output = [
   "pageSize"=>$pageSize,
   "pageCount"=>ceil($count/$pageSize),
   "pno"=>1,
-  "country"=>0,
+  "country"=>$country,
   "title"=>0,
   "qualify"=>0,
   "year"=>0,
