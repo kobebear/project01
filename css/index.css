@@ -292,18 +292,9 @@ a.content:hover{
 	padding-left:20px;
 	font-weight:normal;
 }
-.doc-left-body img{
-	display: block;
-	float: left;
-	width: 66px;
-	height: 66px;
-	border-radius: 50%;
-	margin-left: 20px;
-}
 .doc-left-body li{
 	width: 49%;
 	height: 70px;
-	padding: 30px 0;
 	margin-bottom: 10px;
 	position: relative;
 }
@@ -498,10 +489,9 @@ a.content:hover{
 }
 #floor3 .device{
 	margin:0 auto;
-	width:1112px;
+	width:1088px;
 	height:370px;
 	background-image:url("../img/index/wh_img42.jpg");
-	background-position:12px 24px;
 	background-repeat:no-repeat;
 	position:absolute;
 	transition: all 1.5s linear;
@@ -586,8 +576,62 @@ div.infomiddle p{
 	clear:left;
 }
 #container{
-  width:1112px; height:370px;
+  width:1088px; height:370px;
   transform:rotatex(0deg) rotatey(0deg);
   transition:all .5s linear;
+	border-radius:20px;
 }
-
+.doc-left-body>li{
+  perspective:1000px;
+  transform-style:preserve-3d;
+}
+.doc-left-body>li>a{
+  z-index:10;
+  display:inline-block;
+  width:66px; height:66px;
+  transform:rotateY(0deg);
+  transform-style:preserve-3d;
+  transition:all .5s linear;
+}
+.doc-left-body>li.h>a:hover{
+   transform:rotateY(180deg);
+ }
+.doc-left-body>li.v>a:hover{
+  transform:rotateX(180deg);
+}
+.doc-left-body>li>a>*,.doc-left-body>li>a+b{
+  border-radius: 50%;
+  width:66px; height:66px;
+  position:absolute;
+  top:50%;left:50%;
+  margin-left:-33px;
+  margin-top:-33px;
+}
+.doc-left-body>li>a>img{
+  transform:translateZ(5px);
+}
+.doc-left-body>li.h>a>p{
+  background:#f8f8f8;
+  transform:translateZ(-5px) rotateY(180deg);
+}
+.doc-left-body>li.v>a>p{
+  background:#f8f8f8;
+  transform:translateZ(-5px) rotateY(180deg) rotateZ(180deg);
+}
+.doc-left-body>li>a+b{
+  background:gray;
+  opacity:.2;
+  transform:translateY(43px) scaleY(.1);
+  transition:all .5s linear;
+}
+.doc-left-body>li.h>a:hover+b{
+   transform:translateY(43px) scaleY(.1) rotateY(180deg);
+ }
+.doc-left-body>li.v>a:hover+b{
+  animation:v_rotate .5s;
+}
+@keyframes v_rotate{
+  0%{transform:translateY(43px) scaleY(.1)}
+  50%{transform:translateY(43px) scaleY(.2)}
+  100%{transform:translateY(43px) scaleY(.1)}
+}

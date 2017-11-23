@@ -121,28 +121,28 @@ $(()=>{
 });
 
 $(()=>{
-    $.get("data/doctor/queryDoctor.php")
-        .then(result=>{
-            let docinfo = result.data;
-            // console.log(result);
-            let fhtml = "";
-            for (let d of docinfo ) {
-                fhtml += `
-                   <li>
-                         <a href="#">
-                             <img src="${d.pic}" alt="">
-                            <p>
-                                <span>${d.doctor_name}</span><br/>
-                                <span>${d.title}</span><br/>
-                                <span>${d.qualify}</span>
-                            </p>
-                         </a>
-                         <span id="doc-info-cover"></span>
-                     </li>
-                    `;
-            }
-            $("#doc-infor").html(fhtml);
-        })
+  $.get("data/doctor/queryDoctor.php")
+    .then(result=>{
+      let docinfo = result.data;
+      let fhtml = "";
+      for (let d of docinfo ) {
+        fhtml += `
+          <li class="${Math.random()<0.5?"h":"v"}">
+             <span id="doc-info-cover"></span>
+             <a href="#">
+                <img src="${d.pic}" alt="">
+                <p>
+                    <span>${d.doctor_name}</span><br/>
+                    <span>${d.title}</span><br/>
+                    <span>${d.qualify}</span>
+                </p>
+             </a>
+             <b></b>
+           </li>
+          `;
+      }
+      $("#doc-infor").html(fhtml);
+    })
 });
 
 
