@@ -438,14 +438,14 @@ a.content:hover{
 	/*padding-top:10px;*/
 }
 #floor3{
-	margin:0 auto;
-	width:960px;
-	height:500px;
-	margin-top:50px;
+	margin:50px auto;
+	width:1112px;
+	height:370px;
 	/* padding-top:550px; */
 	border-top:1px solid gray;
 	clear:both;
 	position:relative;
+  perspective:2000px;
 }
 #floor3 #brandD{
 	width:220px;
@@ -498,22 +498,25 @@ a.content:hover{
 }
 #floor3 .device{
 	margin:0 auto;
-	margin-left:-109px;
 	width:1112px;
-	height:500px;
+	height:370px;
 	background-image:url("../img/index/wh_img42.jpg");
 	background-position:12px 24px;
 	background-repeat:no-repeat;
 	position:absolute;
 	transition: all 1.5s linear;
+  perspective:2000px;
 }
 #floor3 .device.fade{
 	opacity:0;
+  transition:all .5s linear;
 }
 #floor3 .device.in{
 	opacity:1; z-index:10;
 }
-
+#floor3 .device.in>.d-right{
+  transform-origin: 50%  50%  -100px;
+}
 #floor3 .device p{
 	color:white;
 	font-size:14px;
@@ -582,5 +585,9 @@ div.infomiddle p{
 	float:left;
 	clear:left;
 }
-
+#container{
+  width:1112px; height:370px;
+  transform:rotatex(0deg) rotatey(0deg);
+  transition:all .5s linear;
+}
 

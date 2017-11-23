@@ -115,10 +115,37 @@ $(()=>{
     $.get("data/index/floor1.php")
         .then(data=>{
               for(var i in data){
-              $("#doctors.sql>ul>li>a").eq(i).css("background","url('"+data[i].img+"')");
+              $("#doctors>ul>li>a").eq(i).css("background","url('"+data[i].img+"')");
             }
         })
 });
+
+$(()=>{
+    $.get("data/doctor/queryDoctor.php")
+        .then(result=>{
+            let docinfo = result.data;
+            // console.log(result);
+            let fhtml = "";
+            for (let d of docinfo ) {
+                fhtml += `
+                   <li>
+                         <a href="#">
+                             <img src="${d.pic}" alt="">
+                            <p>
+                                <span>${d.doctor_name}</span><br/>
+                                <span>${d.title}</span><br/>
+                                <span>${d.qualify}</span>
+                            </p>
+                         </a>
+                         <span id="doc-info-cover"></span>
+                     </li>
+                    `;
+            }
+            $("#doc-infor").html(fhtml);
+        })
+});
+
+
 //真实案例图片加载
 $(()=>{
     $.get("data/index/realcase.php")
@@ -132,8 +159,24 @@ $(()=>{
 $(()=>{
       $.get("data/index/realcase.php")
           .then(data=>{
+            console.log(data);
               $("#leftdiv").css("background","url('"+data[0].bm+"')");
               $("#rightdiv").css("background","url('"+data[1].bm+"')");
+              let htmll="";
+              var p=data[0];
+              console.log(p);
+                htmll += ` <p><strong>诉求:</strong><span class="">${p.required}</span></p>
+                    <p><strong>推荐专家:</strong><span class="">${p.doctor}</span></p>
+                    <p><strong>解决方案:</strong><span class="">${p.solution}</span></p>`;
+              let htmlr="";
+              var b=data[1];
+                  htmlr+=` <p><strong>诉求:</strong><span class="">${b.required}</span></p>
+                    <p><strong>推荐专家:</strong><span class="">${b.doctor}</span></p>
+                    <p><strong>解决方案:</strong><span class="">${b.solution}</span></p>`;
+
+              $(".infomiddle-right").html(htmlr);
+              $(".infomiddle-left").html(htmll);
+
              $("#right-details").on("mouseover","a",function(e){
                   e.preventDefault();
                   var i=$(this).parent().index();
@@ -145,8 +188,25 @@ $(()=>{
                   }
                     $("#leftdiv").css("background","url('"+data[l].bm+"')");
                     $("#rightdiv").css("background","url('"+data[r].bm+"')");
+                 let htmll="";
+                 var p=data[l];
+                     console.log(p);
+                     htmll+=` <p><strong>诉求:</strong><span class="">${p.required}</span></p>
+                    <p><strong>推荐专家:</strong><span class="">${p.doctor}</span></p>
+                    <p><strong>解决方案:</strong><span class="">${p.solution}</span></p>`;
+
+                 $(".infomiddle-left").html(htmll);
+
+                 let htmlr="";
+                 var b=data[r];
+                     console.log(b);
+                     htmlr+=` <p><strong>诉求:</strong><span class="">${b.required}</span></p>
+                    <p><strong>推荐专家:</strong><span class="">${b.doctor}</span></p>
+                    <p><strong>解决方案:</strong><span class="">${b.solution}</span></p>`;
+
+                 $(".infomiddle-right").html(htmlr);
                      // console.log(data[l].bm,data[r].bm);
-               })
+               });
          })
 });
 //品牌信息
@@ -181,4 +241,29 @@ $(()=>{
         $("#container>div:eq("+i+")").addClass("in").siblings().removeClass("in");
       })
     });
+  var WIDTH=1112,HEIGHT=500,CX=WIDTH/2,CY=HEIGHT/2,
+    BSWIDTH=20,BSCOLOR="black",BS_X_OFFSET=20,BS_Y_OFFSET=10;
+  var $container=$("#container");
+  $container.mousemove(e=>{
+    var offsetX=e.clientX-$container.offset().left,
+      offsetY=e.clientY-($container.offset().top-$("body,html").scrollTop());
+    var rateY=(CY-offsetY)/CY,
+      rateX=(offsetX-CX)/CX;
+    var x_deg=5*rateY;
+    var y_deg=5*rateX;
+
+    var bswidth=BSWIDTH*((Math.abs(rateY)+Math.abs(rateX))/2);
+    $container.css({
+      transform: `rotatex(${x_deg}deg) rotatey(${y_deg}deg)`,
+      boxShadow:`${BS_X_OFFSET*-rateX/2}px ${BS_Y_OFFSET*rateY/2}px ${bswidth}px gray`
+    });
+    $container.find(".device.in>.d-right").css(
+      "transform",`rotatex(${x_deg*2/3}deg) rotatey(${y_deg*2/3}deg)`
+    )
+  }).mouseout(e=>{
+    $("#container").css({
+      transform:"",
+      boxShadow:""
+    })
+  });
 });
