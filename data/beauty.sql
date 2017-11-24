@@ -133,6 +133,11 @@ drop table if exists case_pic;
 CREATE TABLE `case_pic` (
   `pid` int(11) DEFAULT NULL,
   `title` varchar(128) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `name` varchar(128) DEFAULT NULL,
+  `required` varchar(128) DEFAULT NULL,
+  `doctor` varchar(64) DEFAULT NULL,
+  `solution` varchar(128) DEFAULT NULL,
   `sm` varchar(128) DEFAULT NULL,
   `bm` varchar(128) DEFAULT NULL,
   `md` varchar(128) DEFAULT NULL
@@ -142,13 +147,13 @@ CREATE TABLE `case_pic` (
 -- 转存表中的数据 `case_pic`
 --
 
-INSERT INTO `case_pic` (`pid`, `title`, `sm`, `bm`, `md`) VALUES
-(1, 'pic1', 'img/index/scase1.jpg', 'img/index/case1.png', NULL),
-(2, 'pic2', 'img/index/scase2.jpg', 'img/index/case2.png', NULL),
-(3, 'pic1', 'img/index/scase3.jpg', 'img/index/case3.png', NULL),
-(4, 'pic2', 'img/index/scase4.jpg', 'img/index/case4.png', NULL),
-(5, 'pic3', 'img/index/scase5.jpg', 'img/index/case5.png', NULL),
-(6, 'pic4', 'img/index/scase6.jpg', 'img/index/case6.png', NULL);
+INSERT INTO `case_pic` (`pid`, `title`, `age`, `name`, `required`, `doctor`, `solution`, `sm`, `bm`, `md`) VALUES
+(1, 'pic1', 25, '于小姐', '面部暗沉,皮肤粗糙', '纪敏', '皮秒美白嫩肤', 'img/index/scase1.jpg', 'img/index/case1.png', NULL),
+(2, 'pic2', 22, '李小姐', '腰腹,上臂脂肪堆积', '常冬青', '光线无痕溶脂', 'img/index/scase2.jpg', 'img/index/case2.png', NULL),
+(3, 'pic1', 20, '冯小姐', '面部轮廓松弛,有皱纹', '纪敏', '多极射频面部颈部提升', 'img/index/scase3.jpg', 'img/index/case3.png', NULL),
+(4, 'pic2', 23, '车小姐', '哺乳后胸部下垂', '常冬青', '内窥镜隆胸', 'img/index/scase4.jpg', 'img/index/case4.png', NULL),
+(5, 'pic3', 26, '牛小姐', '面部凹陷,泪沟,鼻唇沟明显', '常冬青', '自体脂肪面部填充', 'img/index/scase5.jpg', 'img/index/case5.png', NULL),
+(6, 'pic4', 35, '张小姐', '眯眯眼,肿眼泡', '常冬青', '韩式双眼皮+开眼角', 'img/index/scase6.jpg', 'img/index/case6.png', NULL);
 
 -- --------------------------------------------------------
 
