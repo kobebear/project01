@@ -280,6 +280,9 @@ $(()=>{
             transform: `rotatex(${x_deg}deg) rotatey(${y_deg}deg)`,
             boxShadow:`${BS_X_OFFSET*-rateX/2}px ${BS_Y_OFFSET*rateY/2}px ${bswidth}px gray`
         });
+        $container.find(".device.in>.d-right").css(
+          "transform",`rotatex(${x_deg*2/3}deg) rotatey(${y_deg*2/3}deg)`
+        )
     }).mouseout(e=>{
         $("#container").css({
             transform:"",

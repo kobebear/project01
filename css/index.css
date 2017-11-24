@@ -453,8 +453,8 @@ a.content:hover{
 }
 #floor3{
 	margin:0 auto;
-	width:960px;
-	height:500px;
+	width:1088px;
+	height:370px;
 	margin-top:50px;
 	/* padding-top:550px; */
 	/*border-top:1px solid gray;*/
@@ -513,11 +513,9 @@ a.content:hover{
 }
 #floor3 .device{
 	margin:0 auto;
-	margin-left:-109px;
-	width:1112px;
-	height:500px;
+	width:1088px;
+	height:370px;
 	background-image:url("../img/index/wh_img42.jpg");
-	background-position:12px 24px;
 	background-repeat:no-repeat;
 	position:absolute;
 	transition: all 1.5s linear;
@@ -525,6 +523,7 @@ a.content:hover{
 }
 #floor3 .device.fade{
 	opacity:0;
+	transition:all .5s linear;
 }
 #floor3 .device.in{
 	opacity:1; z-index:10;
@@ -599,26 +598,6 @@ div.infomiddle p{
 	padding-left:10px;
 	float:left;
 	clear:left;
-}
-#floor3{
-	margin:50px auto;
-	width:1112px;
-	height:370px;
-	/* padding-top:550px; */
-	border-top:1px solid gray;
-	clear:both;
-	position:relative;
-	perspective:2000px;
-}
-#floor3 .device{
-	margin:0 auto;
-	width:1112px;
-	height:370px;
-	background-image:url("../img/index/wh_img42.jpg");
-	background-position:12px 24px;
-	background-repeat:no-repeat;
-	position:absolute;
-	transition: all 1.5s linear;
 }
 #container{
 	width:1088px; height:370px;
