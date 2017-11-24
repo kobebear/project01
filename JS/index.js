@@ -262,7 +262,7 @@ $(()=>{
                 $("#container>div:eq("+i+")").addClass("in").siblings().removeClass("in");
             })
         });
-    var WIDTH=1112,HEIGHT=500,CX=WIDTH/2,CY=HEIGHT/2,
+    var WIDTH=1088,HEIGHT=370,CX=WIDTH/2,CY=HEIGHT/2,
         BSWIDTH=20,BSCOLOR="black",BS_X_OFFSET=20,BS_Y_OFFSET=10;
     var $container=$("#container");
     $container.mousemove(e=>{

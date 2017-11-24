@@ -460,6 +460,7 @@ a.content:hover{
 	/*border-top:1px solid gray;*/
 	clear:both;
 	position:relative;
+  perspective:2000px;
 }
 #floor3 #brandD{
 	width:220px;
@@ -520,6 +521,7 @@ a.content:hover{
 	background-repeat:no-repeat;
 	position:absolute;
 	transition: all 1.5s linear;
+	perspective:2000px;
 }
 #floor3 .device.fade{
 	opacity:0;
@@ -527,7 +529,9 @@ a.content:hover{
 #floor3 .device.in{
 	opacity:1; z-index:10;
 }
-
+#floor3 .device.in>.d-right{
+	transform-origin: 50%  50%  -100px;
+}
 #floor3 .device p{
 	color:white;
 	font-size:14px;
@@ -623,8 +627,8 @@ div.infomiddle p{
 	border-radius:20px;
 }
 .doc-left-body>li{
-	perspective:1000px;
-	transform-style:preserve-3d;
+	perspective:1000px;/*视距*/
+	transform-style:preserve-3d;/*让父元素变为3d效果的容器*/
 }
 .doc-left-body>li>a{
 	z-index:10;
