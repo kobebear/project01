@@ -40,7 +40,10 @@
     display:block;
     clear:both;
 }
-.diary-items li a:hover,.diary-items li a.item-active {
+.diary-items li a.item-active {
+    color: #0aa1ed;
+}
+.diary-items li a:hover{
     color: #0aa1ed;
 }
 #item-sublist{

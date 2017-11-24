@@ -21,10 +21,13 @@
 		height:50px;
 		margin:0 auto;
 		position:absolute;
-		top:151px;
+		top:0px;
 		left:145px;
 		background:-webkit-linear-gradient(left,#80BFFE,#4FF0C8);
 	}
+#navall .banner-ul{
+	z-index:50;
+}
 #navall ul li{
 		float:left;
 		font-size:18px;
@@ -118,7 +121,7 @@
 		margin-left:205px;
 		background:#fff;
 		position:absolute;
-		top:150px;
+		top:0px;
 		left:140px;
 		z-index:10;
 		display:none;
@@ -198,7 +201,7 @@ a.content:hover{
 	}
 #doctors>ul{
 	 	width:100%;
-		height:84%;
+		height:90%;
 		display:flex;
 		 justify-content: space-between;
 		 flex-wrap:wrap;
@@ -302,11 +305,22 @@ a.content:hover{
 }
 .doc-left-body li{
 	width: 49%;
-	height: 70px;
-	padding: 30px 0;
+	height: 80px;
+	padding: 10px 0;
 	margin-bottom: 10px;
 	position: relative;
 }
+
+/*.doc-left-body li a{*/
+	/*display:inline-block;*/
+	/*width:66px;*/
+	/*height:66px;*/
+/*}*/
+/*.doc-left-body li.active{*/
+	/*transform: rotatey(0deg) rotatey(358deg);*/
+/*}*/
+
+
 #doc-info-cover{
 	width: 100%;
 	height: 100%;
@@ -335,7 +349,7 @@ a.content:hover{
 	margin-bottom:50px;
 	text-align:center;
 	padding-left:110px;
-	border-top:1px solid gray;
+	/*border-top:1px solid gray;*/
 	box-sizing:border-box;
    }
 #floor:after{
@@ -348,7 +362,7 @@ a.content:hover{
 	height:541px;
 	background:gray;
 	float:left;
-	border:1px solid transparent;
+	border:1px solid #fff;
    }
 #floor2>#right-details{
    	float:left;
@@ -415,10 +429,10 @@ a.content:hover{
 }
 #right-details .real-text:hover{
 	background: url("../img/index/wh_img39.png") left top;
-	width: 65px;
+	width: 100%;
 	font-size: 18px;
 	line-height: 65px;
-	height: 105px;
+	height: 100%;
 	padding: 40px 32px 0px 33px;
 }
 #right-details .real-text i{
@@ -443,7 +457,7 @@ a.content:hover{
 	height:500px;
 	margin-top:50px;
 	/* padding-top:550px; */
-	border-top:1px solid gray;
+	/*border-top:1px solid gray;*/
 	clear:both;
 	position:relative;
 }
@@ -560,8 +574,8 @@ a.content:hover{
 	top:0;
 }
 .iconinfo{
-	width: 58px;
-	height: 55px;
+	width: 72px;
+	height: 74px;
 	margin: 0px 0px 23px 0px;
 	color: #fff;
 	font-size: 16px;
@@ -581,6 +595,86 @@ div.infomiddle p{
 	padding-left:10px;
 	float:left;
 	clear:left;
+}
+#floor3{
+	margin:50px auto;
+	width:1112px;
+	height:370px;
+	/* padding-top:550px; */
+	border-top:1px solid gray;
+	clear:both;
+	position:relative;
+	perspective:2000px;
+}
+#floor3 .device{
+	margin:0 auto;
+	width:1112px;
+	height:370px;
+	background-image:url("../img/index/wh_img42.jpg");
+	background-position:12px 24px;
+	background-repeat:no-repeat;
+	position:absolute;
+	transition: all 1.5s linear;
+}
+#container{
+	width:1088px; height:370px;
+	transform:rotatex(0deg) rotatey(0deg);
+	transition:all .5s linear;
+	border-radius:20px;
+}
+.doc-left-body>li{
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.doc-left-body>li>a{
+	z-index:10;
+	display:inline-block;
+	width:66px; height:66px;
+	transform:rotateY(0deg);
+	transform-style:preserve-3d;
+	transition:all .5s linear;
+}
+.doc-left-body>li.h>a:hover{
+	transform:rotateY(180deg);
+}
+.doc-left-body>li.v>a:hover{
+	transform:rotateX(180deg);
+}
+.doc-left-body>li>a>*,.doc-left-body>li>a+b{
+	border-radius: 50%;
+	width:66px; height:66px;
+	position:absolute;
+	top:50%;left:50%;
+	margin-left:-33px;
+	margin-top:-33px;
+}
+.doc-left-body>li>a>img{
+	transform:translateZ(5px);
+}
+.doc-left-body>li.h>a>p{
+	background:#f8f8f8;
+	transform:translateZ(-5px) rotateY(180deg);
+}
+.doc-left-body>li.v>a>p{
+	background:#f8f8f8;
+	transform:translateZ(-5px) rotateY(180deg) rotateZ(180deg);
+}
+.doc-left-body>li>a+b{
+	background:gray;
+	opacity:.2;
+	transform:translateY(43px) scaleY(.1);
+	transition:all .5s linear;
+}
+.doc-left-body>li.h>a:hover+b{
+	transform:translateY(43px) scaleY(.1) rotateY(180deg);
+}
+.doc-left-body>li.v>a:hover+b{
+	animation:v_rotate .5s;
+}
+@keyframes v_rotate{
+	0%{transform:translateY(43px) scaleY(.1)}
+	50%{transform:translateY(43px) scaleY(.2)}
+	100%{transform:translateY(43px) scaleY(.1)}
 }
 
 
