@@ -6,6 +6,8 @@
  @$pno = $_REQUEST["pno"];
  if(!$pno) $pno=1;
 
+
+
 $sql = "SELECT count(*) FROM dairy_info";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_row($result);//??

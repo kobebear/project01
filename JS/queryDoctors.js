@@ -33,7 +33,7 @@ $(()=> {
     }
     $.get("data/doctor/queryDoctor.php",search).then(result => {
       let data = result.data;
-      console.log(data);
+      // console.log(data);
       let fhtml = "";
       for (let d of data) {
         fhtml += `
@@ -75,7 +75,6 @@ $(()=> {
               html += `
                       <li><a href="#">${data.pno+2}</a></li>
                       `;
-
           }
           html+="<li><a href=\"#\">下一页</a></li>";
           $("#pagination").html(html);

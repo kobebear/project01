@@ -21,10 +21,13 @@
 		height:50px;
 		margin:0 auto;
 		position:absolute;
-		top:151px;
+		top:0px;
 		left:145px;
 		background:-webkit-linear-gradient(left,#80BFFE,#4FF0C8);
 	}
+#navall .banner-ul{
+	z-index:50;
+}
 #navall ul li{
 		float:left;
 		font-size:18px;
@@ -118,7 +121,7 @@
 		margin-left:205px;
 		background:#fff;
 		position:absolute;
-		top:150px;
+		top:0px;
 		left:140px;
 		z-index:10;
 		display:none;
@@ -198,7 +201,7 @@ a.content:hover{
 	}
 #doctors>ul{
 	 	width:100%;
-		height:84%;
+		height:90%;
 		display:flex;
 		 justify-content: space-between;
 		 flex-wrap:wrap;
@@ -292,12 +295,32 @@ a.content:hover{
 	padding-left:20px;
 	font-weight:normal;
 }
+.doc-left-body img{
+	display: block;
+	float: left;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	margin-left: 20px;
+}
 .doc-left-body li{
 	width: 49%;
-	height: 70px;
+	height: 80px;
+	padding: 10px 0;
 	margin-bottom: 10px;
 	position: relative;
 }
+
+/*.doc-left-body li a{*/
+	/*display:inline-block;*/
+	/*width:66px;*/
+	/*height:66px;*/
+/*}*/
+/*.doc-left-body li.active{*/
+	/*transform: rotatey(0deg) rotatey(358deg);*/
+/*}*/
+
+
 #doc-info-cover{
 	width: 100%;
 	height: 100%;
@@ -326,7 +349,7 @@ a.content:hover{
 	margin-bottom:50px;
 	text-align:center;
 	padding-left:110px;
-	border-top:1px solid gray;
+	/*border-top:1px solid gray;*/
 	box-sizing:border-box;
    }
 #floor:after{
@@ -339,7 +362,7 @@ a.content:hover{
 	height:541px;
 	background:gray;
 	float:left;
-	border:1px solid transparent;
+	border:1px solid #fff;
    }
 #floor2>#right-details{
    	float:left;
@@ -406,10 +429,10 @@ a.content:hover{
 }
 #right-details .real-text:hover{
 	background: url("../img/index/wh_img39.png") left top;
-	width: 65px;
+	width: 100%;
 	font-size: 18px;
 	line-height: 65px;
-	height: 105px;
+	height: 100%;
 	padding: 40px 32px 0px 33px;
 }
 #right-details .real-text i{
@@ -429,11 +452,12 @@ a.content:hover{
 	/*padding-top:10px;*/
 }
 #floor3{
-	margin:50px auto;
-	width:1112px;
+	margin:0 auto;
+	width:1088px;
 	height:370px;
+	margin-top:50px;
 	/* padding-top:550px; */
-	border-top:1px solid gray;
+	/*border-top:1px solid gray;*/
 	clear:both;
 	position:relative;
   perspective:2000px;
@@ -495,17 +519,17 @@ a.content:hover{
 	background-repeat:no-repeat;
 	position:absolute;
 	transition: all 1.5s linear;
-  perspective:2000px;
+	perspective:2000px;
 }
 #floor3 .device.fade{
 	opacity:0;
-  transition:all .5s linear;
+	transition:all .5s linear;
 }
 #floor3 .device.in{
 	opacity:1; z-index:10;
 }
 #floor3 .device.in>.d-right{
-  transform-origin: 50%  50%  -100px;
+	transform-origin: 50%  50%  -100px;
 }
 #floor3 .device p{
 	color:white;
@@ -553,8 +577,8 @@ a.content:hover{
 	top:0;
 }
 .iconinfo{
-	width: 58px;
-	height: 55px;
+	width: 72px;
+	height: 74px;
 	margin: 0px 0px 23px 0px;
 	color: #fff;
 	font-size: 16px;
@@ -576,62 +600,64 @@ div.infomiddle p{
 	clear:left;
 }
 #container{
-  width:1088px; height:370px;
-  transform:rotatex(0deg) rotatey(0deg);
-  transition:all .5s linear;
+	width:1088px; height:370px;
+	transform:rotatex(0deg) rotatey(0deg);
+	transition:all .5s linear;
 	border-radius:20px;
 }
 .doc-left-body>li{
-  perspective:1000px;
-  transform-style:preserve-3d;
+	perspective:1000px;/*视距*/
+	transform-style:preserve-3d;/*让父元素变为3d效果的容器*/
 }
 .doc-left-body>li>a{
-  z-index:10;
-  display:inline-block;
-  width:66px; height:66px;
-  transform:rotateY(0deg);
-  transform-style:preserve-3d;
-  transition:all .5s linear;
+	z-index:10;
+	display:inline-block;
+	width:66px; height:66px;
+	transform:rotateY(0deg);
+	transform-style:preserve-3d;
+	transition:all .5s linear;
 }
 .doc-left-body>li.h>a:hover{
-   transform:rotateY(180deg);
- }
+	transform:rotateY(180deg);
+}
 .doc-left-body>li.v>a:hover{
-  transform:rotateX(180deg);
+	transform:rotateX(180deg);
 }
 .doc-left-body>li>a>*,.doc-left-body>li>a+b{
-  border-radius: 50%;
-  width:66px; height:66px;
-  position:absolute;
-  top:50%;left:50%;
-  margin-left:-33px;
-  margin-top:-33px;
+	border-radius: 50%;
+	width:66px; height:66px;
+	position:absolute;
+	top:50%;left:50%;
+	margin-left:-33px;
+	margin-top:-33px;
 }
 .doc-left-body>li>a>img{
-  transform:translateZ(5px);
+	transform:translateZ(5px);
 }
 .doc-left-body>li.h>a>p{
-  background:#f8f8f8;
-  transform:translateZ(-5px) rotateY(180deg);
+	background:#f8f8f8;
+	transform:translateZ(-5px) rotateY(180deg);
 }
 .doc-left-body>li.v>a>p{
-  background:#f8f8f8;
-  transform:translateZ(-5px) rotateY(180deg) rotateZ(180deg);
+	background:#f8f8f8;
+	transform:translateZ(-5px) rotateY(180deg) rotateZ(180deg);
 }
 .doc-left-body>li>a+b{
-  background:gray;
-  opacity:.2;
-  transform:translateY(43px) scaleY(.1);
-  transition:all .5s linear;
+	background:gray;
+	opacity:.2;
+	transform:translateY(43px) scaleY(.1);
+	transition:all .5s linear;
 }
 .doc-left-body>li.h>a:hover+b{
-   transform:translateY(43px) scaleY(.1) rotateY(180deg);
- }
+	transform:translateY(43px) scaleY(.1) rotateY(180deg);
+}
 .doc-left-body>li.v>a:hover+b{
-  animation:v_rotate .5s;
+	animation:v_rotate .5s;
 }
 @keyframes v_rotate{
-  0%{transform:translateY(43px) scaleY(.1)}
-  50%{transform:translateY(43px) scaleY(.2)}
-  100%{transform:translateY(43px) scaleY(.1)}
+	0%{transform:translateY(43px) scaleY(.1)}
+	50%{transform:translateY(43px) scaleY(.2)}
+	100%{transform:translateY(43px) scaleY(.1)}
 }
+
+

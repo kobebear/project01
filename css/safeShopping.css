@@ -112,7 +112,7 @@ ul,li{
     float: left;
     position: relative;
 }
-.nav .nav-box .current {
+.nav .nav-box .current,.nav .nav-box li a:hover{
     background-color: #4ec1b7;
 }
 .nav .nav-box li a {
